@@ -27,3 +27,41 @@
 5. Results are sent back to the frontend for display and interpretation.
 
 ## Project Structure
+
+MatchWise/ <br>
+│ <br>
+├── backend/ <br>
+│ ├── app.py # Flask backend with REST endpoints <br>
+│ ├── resume_matcher.py # NLP and scoring logic <br>
+│ ├── parser.py # PDF extraction utilities <br>
+│ └── requirements.txt <br>
+│ <br>
+├── frontend/ <br>
+│ ├── src/ <br>
+│ ├── public/ <br>
+│ └── package.json <br>
+│ <br>
+├── README.md <br>
+└── .gitignore <br>
+
+
+## Use Cases
+
+- Career centers and universities screening student resumes
+- Job seekers optimizing their resumes for specific roles
+- Recruiters doing preliminary fit checks
+
+## Setup Instructions
+
+1. **Backend Setup**
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   python app.py
+    ```
+2. **Frontend Setup**
+```bash
+cd frontend
+npm install
+npm start
+```
