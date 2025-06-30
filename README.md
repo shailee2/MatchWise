@@ -65,3 +65,13 @@ cd frontend
 npm install
 npm start
 ```
+
+
+## About the Developer
+#### Shailee Patel 
+Undergraduate Student, B.S. in Computer Engineering, Minor in Statistics <br>
+University of Illinois Urbana-Champaign (2023 - 2027) <br>
+#### Contact: 
+Email: shaileepatel05@gmail.com <br>
+LinkedIn: linkedin.com/in/shailee-patel-04481b285 <br>
+GitHub: github.com/shailee2
